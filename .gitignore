@@ -1,0 +1,14 @@
+# Ignore all files:
+*
+# =================But these: ===================
+!.gitignore
+!tiddlywiki.info
+
+# plugins folder
+!plugins/
+!plugins/**
+
+# tiddlers/System/ folder
+!tiddlers/
+!tiddlers/System/
+!tiddlers/System/**
