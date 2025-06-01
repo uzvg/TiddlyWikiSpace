@@ -1,0 +1,10 @@
+code-body: yes
+created: 20250601142654335
+modified: 20250601144508251
+tags: $:/tags/Global
+title: $:/uzvg/Share/Functions/get-website-title
+type: text/vnd.tiddlywiki
+
+\function get-website-title(url)
+	[<url>] :cascade[[$:/uzvg/config/get-website-title/rules]get[text]]
+\end
