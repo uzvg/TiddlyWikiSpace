@@ -3,7 +3,7 @@ code-body: yes
 created: 20250218091313194
 description: Derive a new tiddler from the current tiddler
 icon: $:/uzvg/images/Derivator
-modified: 20250427085121589
+modified: 20250603152506996
 modifier: uzvg
 tags: $:/tags/ViewToolbar
 title: $:/uzvg/Derivator/Button
@@ -11,9 +11,14 @@ type: text/vnd.tiddlywiki
 
 \whitespace trim
 \import [prefix[$:/uzvg/Derivator/Share/]]
-\function get-condition() [<currentTiddler>get[condition]]
+\function get-derivator-condition() [<currentTiddler>get[condition]]
 \function get-derivator-actions() [<actionsTiddler>get[text]]
-<$list filter="[!is[draft]tag[$:/tags/DerivatorActions]] :filter[<storyTiddler>subfilter<get-condition>first[]]" variable="actionsTiddler">
+\function derivator-display-filter()
+	[!is[draft]tag[$:/tags/DerivatorActions]]
+	:filter[<storyTiddler>subfilter<get-derivator-condition>first[]]
+\end
+
+\procedure twks-derivator-btn()
 	<$button
 		actions=<<get-derivator-actions>>
 		tooltip="Derive new tiddler"
@@ -28,4 +33,8 @@ type: text/vnd.tiddlywiki
 			</span>
 		<%endif%>
 	</$button>
+\end
+
+<$list filter="[function[derivator-display-filter]]" variable="actionsTiddler">
+	<<twks-derivator-btn>>
 </$list>
