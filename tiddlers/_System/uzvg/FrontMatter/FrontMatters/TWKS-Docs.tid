@@ -2,7 +2,7 @@ caption: ProjectNotes FrontMatter
 code-body: yes
 condition: [tag[$:/twks/Documents]]
 created: 20250306173336740
-modified: 20250501154813670
+modified: 20250615033245137
 modifier: uzvg
 tags: $:/tags/FrontMatter
 title: $:/uzvg/FrontMatter/FrontMatters/TWKS-Docs
@@ -33,7 +33,7 @@ type: text/vnd.tiddlywiki
 	</tr>
 	<tr>
 			<th>Visibility</th>
-			<td><<visibility-selector>></td>
+			<td><<twks-radio-visibility-selector>></td>
 	</tr>
 	<tr>
 			<th>Caption</th>
