@@ -2,8 +2,8 @@ caption: Image
 code-body: yes
 created: 20250411131349073
 import-type: Image
-modified: 20250411131349073
-regexp-pattern: ^https:\/\/.*\.(jpg|jpeg|png|gif|x-icon)
+modified: 20250604032916094
+regexp-pattern: ^https:\/\/.*\.(jpg|jpeg|png|gif|x-icon|webp)
 tags: $:/tags/Initializer
 title: $:/uzvg/Initializer/Initializers/Image
 type: text/vnd.tiddlywiki
