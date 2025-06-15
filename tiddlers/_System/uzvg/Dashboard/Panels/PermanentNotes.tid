@@ -2,8 +2,9 @@ caption: PermanentNotes
 code-body: yes
 created: 20250424083118361
 filter-prefix: [all[tiddlers]!is[system]tag[PermanentNotes]]
-modified: 20250603150130631
+modified: 20250615033821817
 note-type: PermanentNotes
+order: 3
 page-size: 10
 tags: $:/tags/Dashboard
 title: $:/uzvg/Dashboard/Panels/PermanentNotes

@@ -2,8 +2,9 @@ caption: LiteratureNotes
 code-body: yes
 created: 20250419025659173
 filter-prefix: [all[tiddlers]!is[system]tag[LiteratureNotes]]
-modified: 20250603150146216
+modified: 20250615033812873
 note-type: LiteratureNotes
+order: 2
 page-size: 10
 tags: $:/tags/Dashboard
 title: $:/uzvg/Dashboard/Panels/LiteratureNotes

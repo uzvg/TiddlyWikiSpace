@@ -2,8 +2,9 @@ caption: FleetingNotes
 code-body: yes
 created: 20250603143915433
 filter-prefix: [all[tiddlers]!is[system]tag[FleetingNotes]]
-modified: 20250603145712361
+modified: 20250615033755629
 note-type: FleetingNotes
+order: 1
 page-size: 10
 tags: $:/tags/Dashboard
 title: $:/uzvg/Dashboard/Panels/FleetingNotes
